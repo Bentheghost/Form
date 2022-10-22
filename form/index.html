@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" width="device-width" initial scale="1">
+
+    <title>Free code camp</title>
+    <link rel="stylesheet" href="style.css">
+    <h3 class="heading"> freeCodeCamp Survey Form </h3>
+    <p class="para"> Thank you for taking time to help us improve the platform </p> 
+</head>
+<body >
+<form>
+<div class="container">
+<label> Name</label><br>
+<input type="text" placeholder="Enter your name" required class="fill"><br><br>
+<label>Email</label><br>
+<input type="text" placeholder="Enter your email" class="fill"><br><br>
+<label>Age</label><br>
+<input type="number" placeholder="Age" class="fill"><br><br>
+<label>Which option best describes your current role?</label><br>
+<select id="Roles" class="fill">
+      <option value="role"> Select current role</option>
+      <option value="Web developer"> Web developer </option>
+      <option value="UI/UX"> UI/UX design </option>
+      <option value="Games"> Game developer</option>
+</select>
+<h3>Would you recommend freeCodeCamp to a friend?</h3>
+<input type="radio" name="options" value="definitely" class="tick">Definitely<br>
+<input type="radio" name="options" value="not sure" class="tick">Not Sure<br>
+<input type="radio" name="options" value="maybe" class="tick">Maybe<br>
+ <h3>What is your favourite feature of freeCodeCamp?</h3>
+<select id="Roles" class="fill">
+      <option value="role"> Select an option</option>
+      <option value="networking"> Networking</option>
+      <option value="resources"> Resources </option>
+      <option value="scholarships"> Scholarship</option>
+</select>
+
+<h3 >What would you like to see improved?<br>(Check all that apply)</h3>
+<div class="checkbox">
+<input type="checkbox" name="option1" value="">Front-end Projects<br>
+<input type="checkbox" name="option2" value="">Back-end Projects<br>
+<input type="checkbox" name="option3" value="">Data Visualization<br>
+<input type="checkbox" name="option4" value="">Challenges<br>
+<input type="checkbox" name="option5" value="">Open Source Community<br>
+<input type="checkbox" name="option6" value="">Glitter help rooms<br>
+<input type="checkbox" name="option7" value="">Videos<br>
+<input type="checkbox" name="option8" value="">City Meetups<br>
+<input type="checkbox" name="option9" value="">Wiki<br>
+<input type="checkbox" name="option10" value="">Forum<br>
+<input type="checkbox" name="option11" value="">Additional Courses<br>
+</div>
+<div class="footer">
+<h3 class="text">Any comments or suggestions?</h3>
+<textarea class="t.area" placeholder="Enter your comment here..."></textarea><br>
+<button>Submit</button>
+</div>
+</div>
+</form>
+</body>
